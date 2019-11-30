@@ -63,7 +63,8 @@ app.ws('/socket', (ws, req) => {
     config: {
       encoding: 'LINEAR16',
       sampleRateHertz: 16000,
-      languageCode: process.env.LANG_CODE || 'en-US'
+      languageCode: process.env.LANG_CODE || 'en-GB',
+      model : "phone_call"
     },
     interimResults: false
   };
